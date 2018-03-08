@@ -1,0 +1,37 @@
+.profile-pic {
+  height: auto;
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid cyan;
+  border-radius: 50%;
+  /*this is for make the browser read my code right*/
+  /*It keeps the browsers consistent in how widths and heights are applied to elements. Unfortunately all browsers aren’t consistent with the interpretation of an element’s width as they follow different models. This code will help prevent your page from looking awesome on one browser and not so much on others due to how your element’s size is interpreted.*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.text {
+text-align: center;
+font-family:fantasy, serif;
+}
+
+.social {
+  height: auto;
+  width: 5%;
+  ;
+
+}
+
+.about {
+  margin: auto;
+  width: auto;
+  border: 3px solid cyan;
+  padding: 10px;
+}
+
+.social-container {
+  text-align: center;
+}
